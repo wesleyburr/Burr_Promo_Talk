@@ -1,0 +1,216 @@
+---
+title: "What I Have Done, and What I Do"
+author: 'Wesley S. Burr -- <a href="http://www.trentu.ca/math/">Trent University</a> <br> <a href="http://github.com/wesleyburr"><i class="fa fa-github fa-fw"></i>&nbsp; wsburr</a><br> <a href="http://twitter.com/wsburr"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @wsburr</a><br> <a href="mailto:wesleyburr@trentu.ca"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; wesleyburr@trentu.ca</a><br><br/>'
+date: 2020-10-01 &ensp; <br><br> Slides available at <http://bit.ly/burr_promo_2020>
+output:
+  xaringan::moon_reader:
+    chakra: remark-latest.min.js
+    lib_dir: libs
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      highlightLanguage: r
+    includes:
+      in_header: header.html
+    countIncrementalSlides: false
+    css: example.css
+---
+
+class: inverse
+
+```{r include=FALSE}
+library(ggplot2)
+filter <- dplyr::filter
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, fig.width=10.5, fig.height=4, 
+  comment=NA, rows.print=16)
+theme_set(theme_gray(base_size = 24))
+```
+
+---
+
+class: inverse
+
+## A Brief History
+
+* undergraduate degree in engineering (communications, speciality in applied math)
+* Masters in applied math (signal processing) 
+* PhD in statistics (statistical signal processing and time series analysis)
+* NSERC Canadian Government Laboratories Visiting Fellow (postdoc, Health Canada)
+* Trent University, 2016-present
+
+---
+
+class: inverse
+
+## A Brief History
+
+* so started working on signal processing in communications
+* did a pair of USRAs
+* decided I liked this stuff $\Rightarrow$ Masters
+* just kept going ...
+* ended up in applied statistics
+
+---
+
+class: inverse
+
+## Fields I've Worked in, Chronologically to 2016
+
+* communications and signal processing
+* space physics
+* communications again (from different perspective)
+* time series analysis, spectrum estimation
+* geophysics
+* computational statistics
+* environmental epidemiology (into postdoc)
+
+---
+
+class: inverse
+
+## Fields I've Worked in, Chronologically since 2016
+
+* theoretical and applied statistics, computational statistics (ongoing)
+* environmental epidemiology
+* geophysics
+* agronomy
+* environmental science
+* statistics education
+* cognition and psychology
+* biology
+* **Forensic Science** (jury trial analysis, some random stuff with undergrads)
+* [Stuff Theresa does]
+* geophysics
+
+---
+
+class: inverse
+
+## Graduate Supervision
+
+Since 2016, I've supervised or co-supervised 10 Masters students, on topics:
+
+* applied geophysics and computational statistics
+* environmental epidemiology and Bayesian models
+* cognition, applied psychology, user interface design for mathematics software (x2)
+* DNA testing and probabilistic models
+* interpolators and applied statistics
+* statistical tests for the detection of signals (x2)
+* time series clustering
+* statistical structure of time series regression models
+
+with another 3 Masters students ongoing, and 2 PhDs (one starting
+January, with Theresa!)
+
+---
+
+class: inverse
+
+## Research Highlights
+
+<center>
+<img src="figure/joss.png" style="width: 600px;"/>
+</center>
+
+---
+
+class: inverse
+
+## Research Highlights
+
+<center>
+<img src="figure/environmetrics.png" style="width: 600px;"/>
+</center>
+
+---
+
+class: inverse
+
+## Research Highlights
+
+<center>
+<img src="figure/magneto.png" style="width: 600px;"/>
+</center>
+
+---
+
+class: inverse
+
+## Current Open Research Projects
+
+1. Theoretical spectrum estimation work (with G.~Takahara of Queen's, and our student S. Griffith)
+
+
+---
+
+class: inverse
+
+## Current Open Research Projects
+
+1. Theoretical spectrum estimation work (with G.~Takahara of Queen's, and our student S. Griffith)
+
+2. Environmental Epidemiology (with H.H.~Shin of Health Canada, and students C. Smith, S. Jarvis and K. Sun)
+
+
+---
+
+class: inverse
+
+## Current Open Research Projects
+
+1. Theoretical spectrum estimation work (with G.~Takahara of Queen's, and our student S. Griffith)
+
+2. Environmental Epidemiology (with H.H.~Shin of Health Canada, and students C. Smith, S. Jarvis and K. Sun)
+
+3. Mass Spectrometry spectra and statistics tests (with T. Stotesbury and N. Stock, and student A. Orr)
+
+
+---
+
+class: inverse
+
+## Current Open Research Projects
+
+1. Theoretical spectrum estimation work (with G.~Takahara of Queen's, and our student S. Griffith)
+
+2. Environmental Epidemiology (with H.H.~Shin of Health Canada, and students C. Smith, S. Jarvis and K. Sun)
+
+3. Mass Spectrometry spectra and statistics tests (with T. Stotesbury and N. Stock, and student A. Orr)
+
+4. Magnetic Field historical data set reconstruction (with student B. Ott, and NRCan Geomag Lab)
+
+
+---
+
+class: inverse
+
+## Current Open Research Projects
+
+1. Theoretical spectrum estimation work (with G.~Takahara of Queen's, and our student S. Griffith)
+
+2. Environmental Epidemiology (with H.H.~Shin of Health Canada, and students C. Smith, S. Jarvis and K. Sun)
+
+3. Mass Spectrometry spectra and statistics tests (with T. Stotesbury and N. Stock, and student A. Orr)
+
+4. Magnetic Field historical data set reconstruction (with student B. Ott, and NRCan Geomag Lab)
+
+5. (NEW) Biomaterial aging and inverse time models (with T. Stotesbury, and hopefully N. Stock and student S. Castel)
+
+
+---
+
+layout: false
+class: inverse, middle
+
+<center>
+<a href="http://www.trentu.ca/math/"><img src="figure/trent.png" style="width: 200px;"/></a> &emsp;&emsp;
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="figure/cc.png" style="width: 200px;"/></a>
+</center>
+
+## If you're interested in collaborating, let me know - I'm always interested in doing something new if it involves cool data or interesting applied statistical problems
+
+- Contact me: [Email](mailto:wesleyburr@trentu.ca) or [Twitter](https://twitter.com/wsburr)
+- Slides created via the R package [xaringan](https://github.com/yihui/xaringan) by Yihui Xie
+- Slides and source at <http://bit.ly/burr_promo_2020>
+
+<br/>
